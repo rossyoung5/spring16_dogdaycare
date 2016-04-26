@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   resources :owners
   resources :dogs
 
-
   get 'pages/index'
 
   get 'pages/about'
